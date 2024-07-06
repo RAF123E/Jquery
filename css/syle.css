@@ -1,0 +1,113 @@
+
+#Home{
+    background-image:url(../events-heavenly-header.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.overlay{
+    background-color:rgba(214, 46, 51, 0.6) ;
+    height: 100%;
+    color: #fff;
+    
+}
+.home-sec{
+    padding-top: 20%;
+}
+#open{
+    cursor: pointer;
+}
+#links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    transition: all 0.5s;
+}
+#links a:hover{
+color: rgba(214, 46, 51,0.6);
+;
+}
+#links{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    padding-top: 10%;
+    overflow: hidden;
+    }
+#links .close {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+.singer{
+    background-color: #E68184;
+}
+.singer h3{
+    color: #fff;
+    cursor: pointer;
+}
+.paragraph{
+    background-color: #CCCCCC;
+}
+.item{
+    border: 1px solid #fff;
+    padding: 50px 60px;
+}
+.item span{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.counter{
+    width: 100%;
+    
+    background-image: url(../invitation-2508607__340.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.count-overlay{
+background-color: rgba(214, 46, 51 , 0.6);
+width: 100%;
+
+}
+.cont{
+    padding: 10% 0;
+    text-align: center;
+}
+.contact{
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+.email{
+    color: #D62E33;
+}
+.icon i{
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.icon i:hover {
+
+        color: #fff;
+        background-color: #D62E33;
+    
+}
+input{
+    border: 2px solid #ced4da7a;
+}
+.btnSend{
+    color: #fff;
+    background-color: rgb(214, 46, 51);
+    padding: 10px 20px;
+}
